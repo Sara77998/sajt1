@@ -1,0 +1,170 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    width: auto;
+    background-image: url("slike/machu\ picchu.jpg");
+    background-color: teal;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    object-position: center;
+}
+
+.nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    
+}
+.nav li{
+    background-color: transparent;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+    border: 1px solid rgba(255,255,255,1);
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+.nav a{
+    color: rgba(255,255,255,1);
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.nav li:hover{
+    border-color: grey;
+    transition:ease-in-out;
+    transition-duration: 0.5s;
+}
+
+
+.logo{
+    float: left;
+}
+
+.section1{
+    padding-top: 23px;
+    padding-bottom: 10px;
+    background-color:transparent;
+}
+#tekst1{
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+#tekst1 h1{
+    font-size: 30px;
+    overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 50px;
+}
+.section2{
+    background-color: white;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 40px;
+}
+#accordion h2{
+    font-size: 20px;
+    color: black;
+}
+#accordion {
+    text-align: left;
+    font-size: 13px;
+    color: black;
+}
+.section3{
+    background-color: transparent;
+}
+#tekst3{
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.section4{
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    padding: 10px 0;
+}
+.section4 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: black;
+}
+.border{
+    display: block;
+    margin: auto;
+    color: black;
+    background-color: black;
+    width: 150px;
+    height: 3px;
+    margin-bottom: 40px;
+}
+.clanovi{
+    margin-bottom: 40px;
+}
+.clanovi a{
+    display: inline-block;
+    margin: 0 30px;
+    width:  160px;
+    height: 160px;
+    overflow: hidden;
+}
+.clanovi a img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+}
+.clanovi a:hover>img{
+    filter: none;
+}
+.clanovi-opis{
+    width: 500px;
+    margin: auto;
+    color: black;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+}
+.clanovi-opis:target{
+    height: auto;
+}
+.name{
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+}
+.footerBox2{
+    text-align: center;
+    margin: 50px;
+}
+

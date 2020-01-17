@@ -1,0 +1,141 @@
+*{
+  
+    margin:0;
+    padding:0;
+    font-family: monospace;
+}
+body{
+    margin: 0px;
+    width: auto;
+    background-image: url("slike/machu\ picchu.jpg");
+    background-color: teal;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    object-position: center;
+}
+
+.nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    
+}
+.nav li{
+    background-color: transparent;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+    border: 1px solid rgba(255,255,255,1);
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+.nav a{
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.nav li:hover{
+    border-color:black;
+    transition:ease-in-out;
+    transition-duration: 0.5s;
+}
+.adventures{
+    
+    padding: 48px 0;
+    background: transparent;
+    color:#434343;
+    text-align: center;
+
+
+}
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+    text-align: center;
+}
+.border{
+    width:180px;
+    height:5px;
+    background: #8aa6bd;
+    margin: 20px auto;
+}
+.row{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col{
+    flex:20%;
+    max-width: 25%;
+    box-sizing: border-box;
+    padding:15px;
+}
+.offer{
+    background-color: transparent;
+    padding:30px;
+    
+}
+.offer img{
+    width:90px;
+    height:90x;
+    border-radius: 50%;
+}
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.button {
+    margin-top: 40px ;
+    margin-left: 44.8%;
+    margin-bottom: 25px;
+}
+
+.button a{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    
+}
+.button1{
+    background-color: rgb(145, 129, 238);
+    font-family: 'Courier New', Courier, monospace;
+}
+@media screen and(max-width:960px){
+    .col{
+        flex:100%;
+        max-width: 80px;
+    }
+}
+@media screen and(max-width:600px){
+    .col{
+        flex:100%;
+        max-width: 80px;
+    }
+}

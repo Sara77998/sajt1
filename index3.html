@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style3.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/script3.js"></script>
+
+
+</head>
+<body>
+    <header>
+        <div class="container">
+        
+             <!--<img src="images.png" alt="logo" class="logo">-->
+            <nav class="nav">
+                <ul>
+                    <li><a href="index0.html">Home</a></li>
+                    <li><a href="index2.html">Adventures</a></li>
+                    <li><a href="index1.html">About us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<div class="contact-section">
+	<h1>Contact us</h1>
+    <div class="border"></div>
+	<form onsubmit="return validate()" class="contact-form"  id="form" name="forma" action="message.html">
+
+        
+            <input type="text" id="contact-form-text1"  placeholder="Name" required/>
+       
+            <input type="text" id="contact-form-text2" placeholder="Surname" >
+        
+            <input type="text" id="contact-form-text3" placeholder="Email Adress" required/>
+       
+		    <textarea id="contact-form-text" placeholder="Message"></textarea>
+        
+		
+        <input  type="submit" class="contact-form-btn" value="Send"></input>
+       <!-- <button onclick="validate()" type="submit" class="contact-form-btn"> Send</button>-->
+	</form>
+
+</div>
+<div class="find-us">
+    <h1>Find us</h1>
+</div>
+<style>
+.google-maps {
+position: relative;
+padding-bottom: 75%; /* This is the aspect ratio*/
+margin: 0%;
+height: 50;
+overflow: hidden;
+}
+.google-maps iframe {
+position: absolute;
+padding-left: 10%;
+padding-right: 10%;
+margin: 10%;
+top: 0;
+left: 0;
+width: 60% !important;
+height: 50% !important;
+}
+</style>
+
+<div class="google-maps">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2832.3994008964078!2d20.47303891580327!3d44.77266218733893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a70576248bf79%3A0xadaf5cff042d3bd0!2z0KTQsNC60YPQu9GC0LXRgiDQvtGA0LPQsNC90LjQt9Cw0YbQuNC-0L3QuNGFINC90LDRg9C60LA!5e0!3m2!1ssr!2srs!4v1574276630770!5m2!1ssr!2srs" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+</div>
+
+<div class="footerBox2">
+        <p>© 2019 Outlines<span> - All rights reserved</span></p>
+        &copy; Designed by US
+</div>
+</body>
+</html>
